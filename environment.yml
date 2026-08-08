@@ -1,5 +1,5 @@
 name: agilab_env
-channels:
+ channels:
   - pytorch
   - nvidia
   - conda-forge
@@ -19,8 +19,8 @@ dependencies:
   # PyTorch & CUDA (Adjust versions based on your local GPU drivers)
   - pytorch=2.3.1
   - torchvision=0.18.1
-  - torchaudio=2.3.1
-  - pytorch-cuda=12.1
+  # - torchaudio=2.3.1
+  # - pytorch-cuda=12.1
   # coding style
 
 
